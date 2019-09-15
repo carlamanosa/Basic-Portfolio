@@ -5,11 +5,10 @@
 body {
     width: 100%;
     margin: auto;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-.clearfix {
-    overflow: auto;
-}
+
 
 header {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -21,6 +20,7 @@ header {
     height: 100px;
     width: 100%
     position: fixed;
+    
 }
 
 .container {
@@ -31,10 +31,7 @@ header {
     color: #ffffff;
     text-align: center;
     display: inline-block;
-    line-height: 75px;
-    
-    
-    
+    line-height: 75px;  
 }
 
 
@@ -97,15 +94,45 @@ h2 {
     margin:50px auto; 
 }
 
-.form {
-    background-color: #ffffff;
-    width: 960px;
+
+.Contact form {
+    width: 900px;
+    height: 450px;
+    display: inline-block;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    padding: 20px;
     margin: 0 auto;
+    background-color: white;
 }
 
-.contact {
-   background-color: #ffffff;
-   width: 960px;
+#name {
+    width: 850px;
+    height: 25px;
+}
+
+#mail {
+    width: 850px;
+    height: 25px;
+}
+
+#msg {
+    width: 850px;
+    height: 150px;
+    border-color: #cccccc;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: white;
+    width: 90px;
+    height: 45px;
+}
+
+Portfolio {
+    width: 900px;
+    height: 450px;
+
 }
 
 footer {
